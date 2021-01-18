@@ -33,7 +33,7 @@ let todos = [
 
 const TodoItem = props => {
   return (
-    <li>
+    <li className={style.TodoItem}>
       <input type="checkbox"/> {props.todoTitle}
     </li>
   )
@@ -41,9 +41,9 @@ const TodoItem = props => {
 
 const List = props => {
 
-  const todoItems = todos.map((el, i) => {
-    return <TodoItem key={i} todoTitle={el.title} />
-  })
+  const todoItems = todos.map((el, i) => (
+    <TodoItem key={i} todoTitle={el.title} />
+  ))
 
   return (
     <div className={style.List}>

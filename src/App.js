@@ -1,10 +1,12 @@
 import './App.css';
-import List from "./components/List/List";
+
+import TaskList from './containers/TaskLists/TaskLists'
 
 function App() {
   return (
     <div className="App">
-      <List />
+      <TaskList />
+      {/* <List /> */}
     </div>
   );
 }

@@ -1,3 +1,8 @@
 .List {
+  background-color: var(--honey-suckle);
+}
 
+.TodoItem {
+  color: var(--pewter);
+  cursor: pointer;
 }

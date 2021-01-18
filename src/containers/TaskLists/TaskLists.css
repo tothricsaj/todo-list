@@ -1,0 +1,6 @@
+.TaskList {
+  width: 50vh;
+  padding: 30px;
+  background-color: var(--blue-grey);
+  box-shadow: 5px 5px 3px var(--gumetal-grey);
+}
